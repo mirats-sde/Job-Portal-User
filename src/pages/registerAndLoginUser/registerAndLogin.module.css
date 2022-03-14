@@ -1,0 +1,45 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_container{
+    width:30%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    margin-bottom: 30px;
+}
+.btn{
+    width:100%;
+    border:none;
+    height:50px;
+    /* background-color: rgb(138, 138, 138); */
+    color:rgb(77, 77, 77);
+    transition:300ms ease-out;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: rgb(22, 22, 22);
+    color:white;
+}
+
+.already_user_container{
+    margin-top:30px;
+}
+.link{
+    cursor: pointer;
+    color:black;
+    font-weight: bold;
+}
+.errormsg{
+    color:red;
+}

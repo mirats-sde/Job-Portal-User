@@ -1,0 +1,22 @@
+.container {
+  /* margin-top: 100px; */
+  text-align: center;
+  top: 150px;
+  position: relative;
+}
+.saved_jobs_title {
+  text-align: center;
+  font-size: 30px;
+  /* margin: 100px 0px; */
+  font-weight: 600;
+}
+
+.job_container {
+  margin: 0 5rem;
+}
+.no_job_found,
+.login_first {
+  font-size: 25px;
+  color: gray;
+  margin-top: 30px;
+}

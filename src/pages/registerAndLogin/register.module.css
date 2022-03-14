@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.form_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label_container,
+.input_container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label_container {
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding:10px; */
+  align-items: flex-start;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(66, 66, 66));
+}
+
+.label {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 0px 70px;
+  height: 33%;
+  font-weight: 700;
+}
+
+.question {
+  font-size: 60px;
+  margin: 10px 0px;
+}
+.required {
+  background-color: rgb(233, 40, 40);
+  padding: 5px 20px;
+  text-align: start;
+  width: fit-content;
+}
+.image_container {
+  /* padding-top: 50px; */
+  height: 33%;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.logoimage {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+.go_back_container {
+  height: 33%;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+}
+.go_back_container a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+.input {
+  width: 70%;
+}
+
+.input .text {
+  font-size: 40px;
+  color: gray;
+  font-weight: 700;
+}
+
+.input .inp {
+  border: none;
+  border-bottom: 3px solid gray;
+  padding: 10px 0px;
+  font-size: 30px;
+  width: 100%;
+  color: gray;
+}
+.input select {
+  border: none;
+  border-bottom: 3px solid gray;
+  padding: 10px 0px;
+  font-size: 30px;
+  width: 100%;
+  color: gray;
+}
+.input input:focus,
+select:focus {
+  outline: none;
+}
+select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+.nextBtn_container {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+.nextBtn_container .btn {
+  border: none;
+  background-color: black;
+  padding: 15px 50px;
+  color: white;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 200ms linear;
+}
+button:hover {
+  box-shadow: 5px 5px 10px gray;
+}
+.verify_btns {
+  /* border:1px solid red; */
+  margin: 20px 0px;
+  font-weight: 600;
+}
+.button {
+  border: none;
+  background-color: black;
+  padding: 15px 50px;
+  color: white;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 200ms linear;
+  margin: 0px 15px;
+  transition: 200ms linear;
+  margin-top: 20px;
+}
+.hollow_button {
+  /* border:none; */
+  border-color: black;
+  background-color: transparent;
+  padding: 15px 50px;
+  color: black;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 200ms linear;
+  margin: 0px 15px;
+  transition: 200ms linear;
+}
+.errormsg {
+  color: red;
+}
+.change_email {
+  /* margin-top: 50px; */
+  position: relative;
+
+  /* text-decoration: none; */
+  color: black;
+}
+
+.change_emailaddress_container {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+.disabled {
+  cursor: not-allowed;
+  background-color: rgb(189, 189, 189);
+  color: black;
+  border: none;
+}
+
+.inp::placeholder {
+  color: rgba(167, 167, 167, 0.459);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(167, 167, 167, 0.459);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(167, 167, 167, 0.459);
+}
+
+.input span {
+  color: red;
+  align-self: flex-start;
+  font-size: 1.2vmax;
+  /* display: none ; */
+}

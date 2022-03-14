@@ -1,0 +1,238 @@
+.parallax_container {
+  width: 100vw;
+  /* height: 0vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax_main_div {
+  width: 80%;
+  padding-top: 3.5vmax;
+}
+
+.parallax_info {
+  text-align: start !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.parallax_info h2 {
+  font-size: 1.8vmax;
+  font-weight: 550;
+}
+
+.parallax_info h1 {
+  font-size: 3.7vmax;
+  font-weight: 650;
+  word-spacing: 2px;
+}
+
+.parallax_info h1 span {
+  color: teal;
+}
+
+.parallax_card_container {
+  /* width: 80%; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2vmax;
+  text-decoration: none;
+}
+
+.parallax_card1 {
+  text-decoration: none;
+  border: 1px solid gray;
+  width: 32%;
+  border-radius: 25px;
+  background: url("https://buildyourfuture.miratsinsights.com/images/bcg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_card2 {
+  text-decoration: none;
+  border: 1px solid gray;
+  width: 32%;
+  border-radius: 25px;
+  background: url("https://buildyourfuture.miratsinsights.com/images/bcg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_card {
+  /* height: fit-content; */
+}
+.parallax_card3 {
+  text-decoration: none;
+  border: 1px solid gray;
+  width: 32%;
+  border-radius: 25px;
+  background: url("https://buildyourfuture.miratsinsights.com/images/bcg3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_card3 .p3-a {
+  /* padding-top: 30vmax; */
+}
+.parallax_card {
+  display: flex;
+  flex-direction: column;
+  height: 20vmax;
+}
+.parallax_card a {
+  /* padd-top: 5vmax */
+}
+.parallax_card h1 {
+  color: rgb(255, 250, 250);
+  padding: 2vmax 1vmax;
+  font-size: 2.3vmax;
+  height: 12vmax;
+}
+.parallax_card a {
+  text-align: end !important;
+  padding: 2vmax 1.5vmax 1vmax 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 3vmax;
+}
+
+.box_icons {
+  margin-left: 0.5vmax;
+}
+
+@media (max-width: 600px) {
+  .parallax_main_div {
+    width: 95%;
+    padding-top: 3.5vmax;
+  }
+
+  .parallax_info {
+    text-align: start !important;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vmax;
+  }
+
+  .parallax_info h2 {
+    font-size: 2.6vmax;
+    font-weight: 500;
+    padding-bottom: 2vmax;
+  }
+
+  .parallax_info h1 {
+    font-size: 8.3vmax;
+    font-weight: 650;
+    line-height: 70px;
+  }
+
+  .parallax_card_container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vmax;
+  }
+
+  .parallax_card1 {
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 32%;
+    border-radius: 25px;
+    background: url("https://buildyourfuture.miratsinsights.com/images/bcg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax_card2 {
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 32%;
+    border-radius: 25px;
+    background: url("https://buildyourfuture.miratsinsights.com/images/bcg2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax_card3 {
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 32%;
+    border-radius: 25px;
+    background: url("https://buildyourfuture.miratsinsights.com/images/bcg3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax_card {
+    flex-direction: column;
+    width: 99%;
+    margin-top: 2.5vmax;
+    height: 40vmax;
+    padding: 2vmax 1vmax;
+  }
+
+  .parallax_card h1 {
+    color: rgb(255, 250, 250);
+    padding: 4.5vmax 2vmax;
+    font-size: 4.9vmax;
+    font-weight: 700;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.13px;
+    -webkit-text-stroke-color: black;
+  }
+  .parallax_card a {
+    text-align: end !important;
+    /* padding: 2vmax 1.5vmax 1vmax 0; */
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 15vmax;
+    margin-right: 2vmax;
+  }
+
+  /* .parallax_card2 a {
+    align-self: flex-end;
+    margin-top: 3vmax;
+  } */
+
+  .box_icons {
+    margin-left: 0.5vmax;
+  }
+  .parallax_card h1 {
+    color: rgb(255, 250, 250);
+    padding: 2vmax 1vmax;
+    /* font-size: 6.3vmax; */
+    height: 12vmax;
+  }
+}
+@media (max-width: 400px) {
+  .parallax_card h1 {
+    color: rgb(255, 250, 250);
+    padding: 4vmax 2vmax;
+    font-size: 4.6vmax;
+    font-weight: 700;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.13px;
+    -webkit-text-stroke-color: black;
+  }
+  .parallax_card a {
+    text-align: end !important;
+    /* padding: 2vmax 1.5vmax 1vmax 0; */
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 24vmax;
+    margin-right: 2vmax;
+  }
+  .parallax_card {
+    height: 45vmax;
+  }
+}

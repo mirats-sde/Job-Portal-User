@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.growParentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+.growMainContainer {
+  width: 80%;
+}
+
+.mainContainerTitle {
+  background: -webkit-radial-gradient(#5855ff, #fc5555);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2vmax;
+  font-weight: 500;
+  padding: 5vmax 0 0.2vmax 0;
+}
+.mainContainerDisc {
+  font-size: 3.7vmax;
+  font-weight: 600;
+  color: #202124;
+  padding-bottom: 2.5vmax;
+}
+.mainContainerDisc span {
+  color: tomato;
+}
+
+.grwoCard {
+  text-decoration: none;
+  border: 1px solid rgb(218, 212, 212);
+  border-radius: 25px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  width: 31.5%;
+  transition: 0.18s linear;
+}
+.grwoCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.growCardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.growCardLink {
+  /* align-self: flex-end; */
+}
+.growCardTitle3 {
+  background: -webkit-linear-gradient(rgb(148, 91, 58), #e78a3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600 !important;
+  font-size: 1.5vmax !important;
+  line-height: 5.5vmax;
+  padding-left: 1.4vmax;
+}
+.growCardTitle2 {
+  background: -webkit-linear-gradient(rgb(35, 124, 90), #b92626);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600 !important;
+  font-size: 1.5vmax !important;
+  line-height: 5.5vmax;
+  padding-left: 1.4vmax;
+}
+.growCardTitle1 {
+  background: -webkit-linear-gradient(rgb(35, 76, 124), #267eb9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600 !important;
+  font-size: 1.5vmax !important;
+  line-height: 5.5vmax;
+  padding-left: 1.4vmax;
+  padding-top: 1vmax !important;
+}
+
+.growCardDisc {
+  margin-top: -10px;
+  padding-left: 1.4vmax;
+  padding-right: 0.7vmax;
+  color: #202124;
+  font-weight: 400;
+  font-size: 1.2vmax;
+}
+.growCardLink {
+  color: #202124;
+  font-weight: 400;
+  font-size: 1vmax;
+  text-align: end;
+  padding: 2.5vmax 1vmax 1vmax 0;
+}
+.viewsButton {
+  /* height: 2vmax; */
+  margin-top: 2.8vmax;
+  font-size: 1.1vmax;
+  color: #ffff;
+  background-color: #000000;
+  border-radius: 28px;
+  border: none;
+  padding: 0.65vmax 2vmax;
+  margin-bottom: 4.2vmax;
+  cursor: pointer;
+  /* transition: .3s ease-in-out !important; */
+}
+
+.e_disc,
+.f_disc {
+  visibility: hidden;
+}
+
+.viewsButton:hover {
+  transform: translate(3px, -3px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+@media (max-width: 600px) {
+  .growCardContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .growMainContainer {
+    width: 94%;
+  }
+  .mainContainerTitle {
+    font-size: 3.5vmax;
+  }
+  .mainContainerDisc {
+    font-size: 5.3vmax;
+
+    padding-bottom: 2.5vmax;
+  }
+  .grwoCard {
+    width: 100%;
+    height: 36vmax;
+    margin-top: 2vmax;
+  }
+  .growCardTitle3 {
+    font-size: 3.8vmax !important;
+    /* line-height: 9.5vmax; */
+    padding-left: 3.4vmax;
+    margin-top: -1.5vmax;
+  }
+  .growCardTitle2 {
+    font-size: 3.8vmax !important;
+    /* line-height: 7.5vmax; */
+    padding-top: 1.5vmax;
+    padding-left: 3.4vmax;
+  }
+  .growCardTitle1 {
+    font-size: 3.8vmax !important;
+    /* padding: 1.5vmax ; */
+    /* line-height: 3.5vmax; */
+    margin-top: 2vmax;
+    padding-left: 3.4vmax;
+  }
+
+  .growCardDisc {
+    margin-top: 1vmax;
+    padding-left: 3.4vmax;
+
+    font-weight: 400;
+    font-size: 2.8vmax;
+  }
+  .growCardLink {
+    font-weight: 400;
+    font-size: 2.26vmax;
+    padding: 1.4vmax 3.4vmax 1vmax 0;
+    margin-bottom: 2vmax;
+  }
+  .viewsButton {
+    width: 100%;
+    margin-top: 3.4vmax;
+    font-size: 2.2vmax;
+    padding: 1.4vmax 2vmax;
+  }
+}

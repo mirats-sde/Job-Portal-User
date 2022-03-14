@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jobContainer {
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+.container {
+  /* margin-top: 100px; */
+}
+.job_container {
+  width: 100%;
+  padding: 15px;
+  /* margin-left:30%; */
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  
+  /* height: 80vh; */
+}
+.apply_button {
+  color: white;
+  background-color: #1967d2;
+  border: none;
+  /* padding:10px; */
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+  z-index: 100;
+}
+.image_container {
+  /* position: absolute; */
+}

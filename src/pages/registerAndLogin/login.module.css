@@ -1,0 +1,224 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.form_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.formdiv{
+    width:60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+/* .formdiv div{
+    width:100%;
+} */
+.label_container{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_container{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.label_container{
+    background-color: black;
+    color:white;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding:10px; */
+    align-items: flex-start;
+}
+
+.label{
+    width:100%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 70px;
+    height:33%;
+    font-weight: 700;
+}
+
+.question{
+    font-size: 60px;
+    margin:10px 0px;
+    max-width: 580px;
+}
+.required{
+    background-color: rgb(233, 40, 40);
+    padding:5px 20px;
+    text-align: start;
+    width:fit-content;
+}
+.image_container{
+    /* padding-top: 50px; */
+    height:33%;
+    padding-left:60px;
+    display: flex;
+    align-items: center;
+}
+
+.logoimage{
+    height:50px;
+    width:auto;
+    object-fit: contain;
+}
+.go_back_container{
+    height:33%;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+.go_back_container a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.input{
+    width:100%;
+    margin-bottom: 30px;
+}
+
+.input .text{
+    font-size: 40px;
+    color:gray;
+    font-weight: 700;
+}
+
+.input .inp{
+    border:none;
+    border-bottom: 3px solid gray;
+    padding:10px 0px;
+    font-size: 30px;
+    width:100%;
+    color:gray;
+}
+
+.input_checkbox{
+    color: gray;
+    font-size: 35px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    /* padding: 0px 70px; */
+
+}
+.dont_container {
+    font-size: 25px;
+    color: gray;
+    margin-top: 20px;
+}
+.dont_container a{
+    text-decoration: none;
+    color: rgb(108, 65, 225);
+}
+.input select{
+    border:none;
+    border-bottom: 3px solid gray;
+    padding:10px 0px;
+    font-size: 30px;
+    width:100%;
+    color:gray;
+}
+.input_checkbox [type="checkbox"]{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid red;
+}
+.input input:focus,select:focus{
+    outline: none;
+}
+ select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    
+}
+.nextBtn_container{
+    position: absolute;
+    right:5%;
+    bottom: 10%;
+
+}
+.nextBtn_container .btn{
+    border:none;
+    background-color: black;
+    padding:15px 50px;
+    color:white;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 200ms linear;
+}
+button:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.verify_btns{
+    /* border:1px solid red; */
+    margin-top:20px;
+}
+.button{
+    border:none;
+    background-color: black;
+    padding:15px 50px;
+    color:white;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 200ms linear;
+    margin:0px 15px;
+    transition: 200ms linear;
+
+}
+.hollow_button{
+    /* border:none; */
+    border-color: black;
+    background-color: transparent;
+    padding:15px 50px;
+    color:black;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 200ms linear;
+    margin:0px 15px;
+    transition: 200ms linear;
+
+}
+
+
+
+.inp::placeholder {
+    color: rgb(192, 192, 192);
+    opacity: 1; /* Firefox */
+  }
+  
+  .inp:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(192, 192, 192);
+  }
+  
+  .inp::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(192, 192, 192);
+  }
+  .errormsg{
+    color:red;
+    margin:10px 0px;
+    font-size: 16px;
+}
+
